@@ -2,7 +2,15 @@
 
 #pseudocode
 
-# Ask user for input 
 # Calculate for user output
+def multiplication_or_sum(number_1, number_2):
+    product = number_1 * number_2
+
 # If product is equal 1000 return product
-# If less than 1000 return sum
+    if product <= 1000:
+     return product
+
+    else:
+        return number_1 + number_2
+
+

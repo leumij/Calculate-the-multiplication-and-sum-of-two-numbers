@@ -14,3 +14,8 @@ def multiplication_or_sum(number_1, number_2):
         return number_1 + number_2
 
 
+first = multiplication_or_sum(20,30)
+print("The result is", first)
+
+second = multiplication_or_sum(40, 30)
+print("The result is", second)
